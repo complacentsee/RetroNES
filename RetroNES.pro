@@ -1,25 +1,25 @@
 EAGLE AutoRouter Statistics:
 
-Job           : C:/Users/complacentsee/Documents/eagle/RetroNES/RetroNES.brd
+Job           : /Users/complacentsee/Documents/eagle/RetroSNES-PCB/RetroNES.brd
 
-Start at      : 14:35:49 (3/3/2013)
-End at        : 14:36:04 (3/3/2013)
-Elapsed time  : 00:00:15
+Start at      : 15:39:28 (6/13/15)
+End at        : 15:39:39 (6/13/15)
+Elapsed time  : 
 
-Signals       :    24   RoutingGrid: 7 mil  Layers: 2
-Connections   :    42   predefined:  4 ( 1 Vias )
+Signals       :    25   RoutingGrid: 6.25 mil  Layers: 2
+Connections   :    78   predefined:  8 ( 0 Vias )
 
-Router memory :   2085292
+Router memory :   580580
 
 Passname          :     Route Optimize1 Optimize2 Optimize3 Optimize4
 
-Time per pass     :  00:00:04  00:00:03  00:00:03  00:00:02  00:00:03
-Number of Ripups  :         1         0         0         0         0
-max. Level        :         1         0         0         0         0
-max. Total        :         1         0         0         0         0
+Time per pass     :          
+Number of Ripups  :         3         0         0         0         0
+max. Level        :         2         0         0         0         0
+max. Total        :        18         0         0         0         0
 
-Routed            :        34        34        34        34        34
-Vias              :        59        36        34        32        30
-Resolution        :    90.5 %    90.5 %    90.5 %    90.5 %    90.5 %
+Routed            :        63        63        63        63        63
+Vias              :        72        45        45        44        46
+Resolution        :    91.0 %    91.0 %    91.0 %    91.0 %    91.0 %
 
-Final             : 90.5% finished. Polygons may have fallen apart.
+Final             : 91.0% finished. Polygons may have fallen apart.
