@@ -1,0 +1,1044 @@
+Archive member included because of file (symbol)
+
+./arduinocore/libarduinocore.a(wiring.o)
+                              main.o (init)
+/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+                              /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o (exit)
+/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+                              WMExtension.o (__do_copy_data)
+/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+                              Wire/utility/twi.o (__do_clear_bss)
+/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+                              wra.o (__do_global_ctors)
+/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+                              /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o) (__tablejump__)
+/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(memcmp.o)
+                              WMCrypt.o (memcmp)
+/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(memset.o)
+                              WMExtension.o (memset)
+
+Discarded input sections
+
+ .bss           0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+ .text          0x00000000        0x0 Wire/utility/twi.o
+ .bss           0x00000000        0x0 Wire/utility/twi.o
+ .text.twi_readFrom
+                0x00000000       0x62 Wire/utility/twi.o
+ .text.twi_writeTo
+                0x00000000       0x7e Wire/utility/twi.o
+ .text.twi_reply
+                0x00000000       0x10 Wire/utility/twi.o
+ .text          0x00000000        0x0 main.o
+ .bss           0x00000000        0x0 main.o
+ .text          0x00000000        0x0 NESPad.o
+ .bss           0x00000000        0x0 NESPad.o
+ .text          0x00000000        0x0 wra.o
+ .bss           0x00000000        0x0 wra.o
+ .text          0x00000000        0x0 Wire/Wire.o
+ .bss           0x00000000        0x0 Wire/Wire.o
+ .text._ZN7TwoWireC2Ev
+                0x00000000        0x2 Wire/Wire.o
+ .text._ZN7TwoWire11requestFromEhh
+                0x00000000       0x1a Wire/Wire.o
+ .text._ZN7TwoWire11requestFromEii
+                0x00000000        0x4 Wire/Wire.o
+ .text._ZN7TwoWire17beginTransmissionEh
+                0x00000000       0x14 Wire/Wire.o
+ .text._ZN7TwoWire17beginTransmissionEi
+                0x00000000        0x4 Wire/Wire.o
+ .text._ZN7TwoWire15endTransmissionEv
+                0x00000000       0x20 Wire/Wire.o
+ .text._ZN7TwoWire4sendEPc
+                0x00000000       0x16 Wire/Wire.o
+ .text._ZN7TwoWire4sendEi
+                0x00000000        0x4 Wire/Wire.o
+ .text._ZN7TwoWire9availableEv
+                0x00000000        0xc Wire/Wire.o
+ .bss._ZN7TwoWire9txAddressE
+                0x00000000        0x1 Wire/Wire.o
+ .text          0x00000000        0x0 WMCrypt.o
+ .bss           0x00000000        0x0 WMCrypt.o
+ .text._ZN7WMCrypt4ror8Ehh
+                0x00000000       0x26 WMCrypt.o
+ .text          0x00000000        0x0 WMExtension.o
+ .bss           0x00000000        0x0 WMExtension.o
+ .text._ZN11WMExtension24set_button_data_callbackEPFvvE
+                0x00000000        0xa WMExtension.o
+ .rodata._ZN11WMExtension2idE
+                0x00000000        0x6 WMExtension.o
+ .text          0x00000000        0x0 ./arduinocore/libarduinocore.a(wiring.o)
+ .bss           0x00000000        0x0 ./arduinocore/libarduinocore.a(wiring.o)
+ .text.millis   0x00000000       0x18 ./arduinocore/libarduinocore.a(wiring.o)
+ .text.micros   0x00000000       0x46 ./arduinocore/libarduinocore.a(wiring.o)
+ .text.delay    0x00000000       0x4c ./arduinocore/libarduinocore.a(wiring.o)
+ .text.delayMicroseconds
+                0x00000000       0x18 ./arduinocore/libarduinocore.a(wiring.o)
+ .text          0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ .bss           0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ .text.libgcc   0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ .text          0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+ .bss           0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc   0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+ .text          0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+ .bss           0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+ .text          0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+ .bss           0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+ .text.libgcc.mul
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+ .text.libgcc.div
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+ .text.libgcc   0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+ .text          0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+ .bss           0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+ .text.libgcc.mul
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+ .text.libgcc.div
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+ .text          0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(memcmp.o)
+ .bss           0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(memcmp.o)
+ .text          0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(memset.o)
+ .bss           0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(memset.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+user_signatures  0x00850000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+LOAD Wire/utility/twi.o
+LOAD main.o
+LOAD NESPad.o
+LOAD wra.o
+LOAD Wire/Wire.o
+LOAD WMCrypt.o
+LOAD WMExtension.o
+LOAD /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a
+LOAD ./arduinocore/libarduinocore.a
+START GROUP
+LOAD /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a
+LOAD /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a
+LOAD /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a
+END GROUP
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x1c2c
+ *(.vectors)
+ .vectors       0x00000000       0xac /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+                0x00000000                __vectors
+                0x00000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+                0x000000ac                . = ALIGN (0x2)
+                0x000000ac                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x000000ac        0x0 linker stubs
+ *(.trampolines*)
+                0x000000ac                __trampolines_end = .
+ *(.progmem*)
+ .progmem.data._ZN7WMCrypt6sboxesE
+                0x000000ac      0x800 WMCrypt.o
+                0x000000ac                _ZN7WMCrypt6sboxesE
+ .progmem.data._ZN7WMCrypt5tsboxE
+                0x000008ac      0x100 WMCrypt.o
+                0x000008ac                _ZN7WMCrypt5tsboxE
+ .progmem.data._ZN7WMCrypt7ans_tblE
+                0x000009ac       0x2a WMCrypt.o
+                0x000009ac                _ZN7WMCrypt7ans_tblE
+                0x000009d6                . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x000009d6                __ctors_start = .
+ *(.ctors)
+ .ctors         0x000009d6        0x2 wra.o
+                0x000009d8                __ctors_end = .
+                0x000009d8                __dtors_start = .
+ *(.dtors)
+                0x000009d8                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x000009d8        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+                0x000009d8                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x000009d8        0xc /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x000009e4       0x16 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+                0x000009e4                __do_copy_data
+ .init4         0x000009fa       0x10 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+                0x000009fa                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ .init6         0x00000a0a       0x16 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+                0x00000a0a                __do_global_ctors
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x00000a20        0x6 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+ *(.init9)
+ *(.text)
+ .text          0x00000a26        0x2 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+                0x00000a26                __vector_42
+                0x00000a26                __vector_22
+                0x00000a26                __vector_28
+                0x00000a26                __vector_1
+                0x00000a26                __vector_32
+                0x00000a26                __vector_34
+                0x00000a26                __vector_24
+                0x00000a26                __vector_12
+                0x00000a26                __bad_interrupt
+                0x00000a26                __vector_6
+                0x00000a26                __vector_31
+                0x00000a26                __vector_35
+                0x00000a26                __vector_39
+                0x00000a26                __vector_3
+                0x00000a26                __vector_30
+                0x00000a26                __vector_25
+                0x00000a26                __vector_11
+                0x00000a26                __vector_13
+                0x00000a26                __vector_17
+                0x00000a26                __vector_19
+                0x00000a26                __vector_7
+                0x00000a26                __vector_41
+                0x00000a26                __vector_27
+                0x00000a26                __vector_5
+                0x00000a26                __vector_33
+                0x00000a26                __vector_37
+                0x00000a26                __vector_4
+                0x00000a26                __vector_9
+                0x00000a26                __vector_2
+                0x00000a26                __vector_21
+                0x00000a26                __vector_15
+                0x00000a26                __vector_29
+                0x00000a26                __vector_40
+                0x00000a26                __vector_8
+                0x00000a26                __vector_26
+                0x00000a26                __vector_14
+                0x00000a26                __vector_10
+                0x00000a26                __vector_16
+                0x00000a26                __vector_18
+                0x00000a26                __vector_20
+                0x00000a26                __vector_38
+                0x00000a28                . = ALIGN (0x2)
+ *(.text.*)
+ .text.twi_init
+                0x00000a28       0x26 Wire/utility/twi.o
+                0x00000a28                twi_init
+ .text.twi_setAddress
+                0x00000a4e        0x8 Wire/utility/twi.o
+                0x00000a4e                twi_setAddress
+ .text.twi_transmit
+                0x00000a56       0x32 Wire/utility/twi.o
+                0x00000a56                twi_transmit
+ .text.twi_attachSlaveRxEvent
+                0x00000a88        0xa Wire/utility/twi.o
+                0x00000a88                twi_attachSlaveRxEvent
+ .text.twi_attachSlaveTxEvent
+                0x00000a92        0xa Wire/utility/twi.o
+                0x00000a92                twi_attachSlaveTxEvent
+ .text.twi_stop
+                0x00000a9c       0x14 Wire/utility/twi.o
+                0x00000a9c                twi_stop
+ .text.twi_releaseBus
+                0x00000ab0        0xc Wire/utility/twi.o
+                0x00000ab0                twi_releaseBus
+ .text.__vector_36
+                0x00000abc      0x246 Wire/utility/twi.o
+                0x00000abc                __vector_36
+ .text.startup.main
+                0x00000d02        0x8 main.o
+                0x00000d02                main
+ .text._ZN6NESPad4initEv
+                0x00000d0a       0x22 NESPad.o
+                0x00000d0a                _ZN6NESPad4initEv
+ .text._ZN6NESPad4readEv
+                0x00000d2c       0x30 NESPad.o
+                0x00000d2c                _ZN6NESPad4readEv
+ .text._Z8nes_loopv
+                0x00000d5c      0x118 wra.o
+                0x00000d5c                _Z8nes_loopv
+ .text.setup    0x00000e74        0x2 wra.o
+                0x00000e74                setup
+ .text.loop     0x00000e76        0x2 wra.o
+                0x00000e76                loop
+ .text.startup._GLOBAL__sub_I_bdl
+                0x00000e78       0x56 wra.o
+ .text._ZN7TwoWire16onReceiveServiceEPhi
+                0x00000ece       0x46 Wire/Wire.o
+                0x00000ece                _ZN7TwoWire16onReceiveServiceEPhi
+ .text._ZN7TwoWire16onRequestServiceEv
+                0x00000f14       0x18 Wire/Wire.o
+                0x00000f14                _ZN7TwoWire16onRequestServiceEv
+ .text._ZN7TwoWire5beginEv
+                0x00000f2c       0x12 Wire/Wire.o
+                0x00000f2c                _ZN7TwoWire5beginEv
+ .text._ZN7TwoWire5beginEh
+                0x00000f3e       0x1e Wire/Wire.o
+                0x00000f3e                _ZN7TwoWire5beginEh
+ .text._ZN7TwoWire5beginEi
+                0x00000f5c        0x2 Wire/Wire.o
+                0x00000f5c                _ZN7TwoWire5beginEi
+ .text._ZN7TwoWire4sendEh
+                0x00000f5e       0x46 Wire/Wire.o
+                0x00000f5e                _ZN7TwoWire4sendEh
+ .text._ZN7TwoWire4sendEPhh
+                0x00000fa4       0x62 Wire/Wire.o
+                0x00000fa4                _ZN7TwoWire4sendEPhh
+ .text._ZN7TwoWire7receiveEv
+                0x00001006       0x22 Wire/Wire.o
+                0x00001006                _ZN7TwoWire7receiveEv
+ .text._ZN7TwoWire9onReceiveEPFviE
+                0x00001028        0xa Wire/Wire.o
+                0x00001028                _ZN7TwoWire9onReceiveEPFviE
+ .text._ZN7TwoWire9onRequestEPFvvE
+                0x00001032        0xa Wire/Wire.o
+                0x00001032                _ZN7TwoWire9onRequestEPFvvE
+ .text._ZN7WMCrypt6genkeyEPKhhPh
+                0x0000103c      0x1d4 WMCrypt.o
+                0x0000103c                _ZN7WMCrypt6genkeyEPKhhPh
+ .text._ZN7WMCrypt7gentabsEPKhS1_hPhS2_
+                0x00001210      0x2c6 WMCrypt.o
+                0x00001210                _ZN7WMCrypt7gentabsEPKhS1_hPhS2_
+ .text._ZN7WMCrypt15wiimote_gen_keyEPKh
+                0x000014d6       0xb8 WMCrypt.o
+                0x000014d6                _ZN7WMCrypt15wiimote_gen_keyEPKh
+ .text._ZN11WMExtension20get_calibration_byteEi
+                0x0000158e       0x14 WMExtension.o
+                0x0000158e                _ZN11WMExtension20get_calibration_byteEi
+ .text._ZN11WMExtension16setup_encryptionEv
+                0x000015a2        0xe WMExtension.o
+                0x000015a2                _ZN11WMExtension16setup_encryptionEv
+ .text._ZN11WMExtension13receive_bytesEi
+                0x000015b0      0x108 WMExtension.o
+                0x000015b0                _ZN11WMExtension13receive_bytesEi
+ .text._ZN11WMExtension9send_dataEPhhh
+                0x000016b8       0x8a WMExtension.o
+                0x000016b8                _ZN11WMExtension9send_dataEPhhh
+ .text._ZN11WMExtension14handle_requestEv
+                0x00001742       0x7c WMExtension.o
+                0x00001742                _ZN11WMExtension14handle_requestEv
+ .text._ZN11WMExtension15set_button_dataEiiiiiiiiiiiiihhhhiiii
+                0x000017be      0x192 WMExtension.o
+                0x000017be                _ZN11WMExtension15set_button_dataEiiiiiiiiiiiiihhhhiiii
+ .text._ZN11WMExtension4initEv
+                0x00001950      0x16a WMExtension.o
+                0x00001950                _ZN11WMExtension4initEv
+ .text.__vector_23
+                0x00001aba       0x94 ./arduinocore/libarduinocore.a(wiring.o)
+                0x00001aba                __vector_23
+ .text.init     0x00001b4e       0xa6 ./arduinocore/libarduinocore.a(wiring.o)
+                0x00001b4e                init
+ .text.libgcc   0x00001bf4        0xc /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+                0x00001bf4                __tablejump2__
+                0x00001bf8                __tablejump__
+ .text.avr-libc
+                0x00001c00       0x1a /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(memcmp.o)
+                0x00001c00                memcmp
+ .text.avr-libc
+                0x00001c1a        0xe /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(memset.o)
+                0x00001c1a                memset
+                0x00001c28                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00001c28        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+                0x00001c28                exit
+                0x00001c28                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00001c28        0x4 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ *(.fini0)
+                0x00001c2c                _etext = .
+
+.data           0x00800100       0x10 load address 0x00001c2c
+                0x00800100                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800100        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+ .data          0x00800100        0x0 Wire/utility/twi.o
+ .data          0x00800100        0x0 main.o
+ .data          0x00800100        0x0 NESPad.o
+ .data          0x00800100        0x0 wra.o
+ .data          0x00800100        0x0 Wire/Wire.o
+ .data          0x00800100        0x0 WMCrypt.o
+ .data          0x00800100        0x0 WMExtension.o
+ .data          0x00800100        0x0 ./arduinocore/libarduinocore.a(wiring.o)
+ .data          0x00800100        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ .data          0x00800100        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+ .data          0x00800100        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+ .data          0x00800100        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+ .data          0x00800100        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+ .data          0x00800100        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(memcmp.o)
+ .data          0x00800100        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(memset.o)
+ *(.data*)
+ .data._ZN11WMExtension16calibration_dataE
+                0x00800100       0x10 WMExtension.o
+                0x00800100                _ZN11WMExtension16calibration_dataE
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.d*)
+                0x00800110                . = ALIGN (0x2)
+                0x00800110                _edata = .
+                0x00800110                PROVIDE (__data_end, .)
+
+.bss            0x00800110      0x214
+                0x00800110                PROVIDE (__bss_start, .)
+ *(.bss)
+ *(.bss*)
+ .bss.twi_error
+                0x00800110        0x1 Wire/utility/twi.o
+ .bss.twi_rxBufferIndex
+                0x00800111        0x1 Wire/utility/twi.o
+ .bss.twi_rxBuffer
+                0x00800112       0x20 Wire/utility/twi.o
+ .bss.twi_txBufferLength
+                0x00800132        0x1 Wire/utility/twi.o
+ .bss.twi_txBufferIndex
+                0x00800133        0x1 Wire/utility/twi.o
+ .bss.twi_txBuffer
+                0x00800134       0x20 Wire/utility/twi.o
+ .bss.twi_masterBufferLength
+                0x00800154        0x1 Wire/utility/twi.o
+ .bss.twi_masterBufferIndex
+                0x00800155        0x1 Wire/utility/twi.o
+ .bss.twi_masterBuffer
+                0x00800156       0x20 Wire/utility/twi.o
+ .bss.twi_onSlaveReceive
+                0x00800176        0x2 Wire/utility/twi.o
+ .bss.twi_onSlaveTransmit
+                0x00800178        0x2 Wire/utility/twi.o
+ .bss.twi_slarw
+                0x0080017a        0x1 Wire/utility/twi.o
+ .bss.twi_state
+                0x0080017b        0x1 Wire/utility/twi.o
+ .bss.ry        0x0080017c        0x1 wra.o
+                0x0080017c                ry
+ .bss.rx        0x0080017d        0x1 wra.o
+                0x0080017d                rx
+ .bss.ly        0x0080017e        0x1 wra.o
+                0x0080017e                ly
+ .bss.lx        0x0080017f        0x1 wra.o
+                0x0080017f                lx
+ .bss.rt        0x00800180        0x2 wra.o
+                0x00800180                rt
+ .bss.lt        0x00800182        0x2 wra.o
+                0x00800182                lt
+ .bss.bzr       0x00800184        0x2 wra.o
+                0x00800184                bzr
+ .bss.bzl       0x00800186        0x2 wra.o
+                0x00800186                bzl
+ .bss.bhome     0x00800188        0x2 wra.o
+                0x00800188                bhome
+ .bss.bp        0x0080018a        0x2 wra.o
+                0x0080018a                bp
+ .bss.bm        0x0080018c        0x2 wra.o
+                0x0080018c                bm
+ .bss.br        0x0080018e        0x2 wra.o
+                0x0080018e                br
+ .bss.bl        0x00800190        0x2 wra.o
+                0x00800190                bl
+ .bss.by        0x00800192        0x2 wra.o
+                0x00800192                by
+ .bss.bx        0x00800194        0x2 wra.o
+                0x00800194                bx
+ .bss.bb        0x00800196        0x2 wra.o
+                0x00800196                bb
+ .bss.ba        0x00800198        0x2 wra.o
+                0x00800198                ba
+ .bss.bdd       0x0080019a        0x2 wra.o
+                0x0080019a                bdd
+ .bss.bdu       0x0080019c        0x2 wra.o
+                0x0080019c                bdu
+ .bss.bdr       0x0080019e        0x2 wra.o
+                0x0080019e                bdr
+ .bss.bdl       0x008001a0        0x2 wra.o
+                0x008001a0                bdl
+ .bss.Wire      0x008001a2        0x1 Wire/Wire.o
+                0x008001a2                Wire
+ .bss._ZN7TwoWire14user_onReceiveE
+                0x008001a3        0x2 Wire/Wire.o
+                0x008001a3                _ZN7TwoWire14user_onReceiveE
+ .bss._ZN7TwoWire14user_onRequestE
+                0x008001a5        0x2 Wire/Wire.o
+                0x008001a5                _ZN7TwoWire14user_onRequestE
+ .bss._ZN7TwoWire12transmittingE
+                0x008001a7        0x1 Wire/Wire.o
+                0x008001a7                _ZN7TwoWire12transmittingE
+ .bss._ZN7TwoWire14txBufferLengthE
+                0x008001a8        0x1 Wire/Wire.o
+                0x008001a8                _ZN7TwoWire14txBufferLengthE
+ .bss._ZN7TwoWire13txBufferIndexE
+                0x008001a9        0x1 Wire/Wire.o
+                0x008001a9                _ZN7TwoWire13txBufferIndexE
+ .bss._ZN7TwoWire8txBufferE
+                0x008001aa       0x20 Wire/Wire.o
+                0x008001aa                _ZN7TwoWire8txBufferE
+ .bss._ZN7TwoWire14rxBufferLengthE
+                0x008001ca        0x1 Wire/Wire.o
+                0x008001ca                _ZN7TwoWire14rxBufferLengthE
+ .bss._ZN7TwoWire13rxBufferIndexE
+                0x008001cb        0x1 Wire/Wire.o
+                0x008001cb                _ZN7TwoWire13rxBufferIndexE
+ .bss._ZN7TwoWire8rxBufferE
+                0x008001cc       0x20 Wire/Wire.o
+                0x008001cc                _ZN7TwoWire8rxBufferE
+ .bss._ZN7WMCrypt5wm_sbE
+                0x008001ec        0x8 WMCrypt.o
+                0x008001ec                _ZN7WMCrypt5wm_sbE
+ .bss._ZN7WMCrypt5wm_ftE
+                0x008001f4        0x8 WMCrypt.o
+                0x008001f4                _ZN7WMCrypt5wm_ftE
+ .bss._ZZN11WMExtension14handle_requestEvE6offset
+                0x008001fc        0x1 WMExtension.o
+ .bss._ZZN11WMExtension9send_dataEPhhhE6buffer
+                0x008001fd        0x8 WMExtension.o
+ .bss._ZN11WMExtension5cbPtrE
+                0x00800205        0x2 WMExtension.o
+                0x00800205                _ZN11WMExtension5cbPtrE
+ .bss._ZN11WMExtension9registersE
+                0x00800207      0x100 WMExtension.o
+                0x00800207                _ZN11WMExtension9registersE
+ .bss._ZN11WMExtension8new_addrE
+                0x00800307        0x1 WMExtension.o
+                0x00800307                _ZN11WMExtension8new_addrE
+ .bss._ZN11WMExtension11buttons_posE
+                0x00800308        0x1 WMExtension.o
+                0x00800308                _ZN11WMExtension11buttons_posE
+ .bss._ZN11WMExtension12buttons_dataE
+                0x00800309       0x10 WMExtension.o
+                0x00800309                _ZN11WMExtension12buttons_dataE
+ .bss._ZN11WMExtension16crypt_setup_doneE
+                0x00800319        0x1 WMExtension.o
+                0x00800319                _ZN11WMExtension16crypt_setup_doneE
+ .bss._ZN11WMExtension5stateE
+                0x0080031a        0x1 WMExtension.o
+                0x0080031a                _ZN11WMExtension5stateE
+ .bss.timer0_fract
+                0x0080031b        0x1 ./arduinocore/libarduinocore.a(wiring.o)
+ .bss.timer0_millis
+                0x0080031c        0x4 ./arduinocore/libarduinocore.a(wiring.o)
+                0x0080031c                timer0_millis
+ .bss.timer0_overflow_count
+                0x00800320        0x4 ./arduinocore/libarduinocore.a(wiring.o)
+                0x00800320                timer0_overflow_count
+ *(COMMON)
+                0x00800324                PROVIDE (__bss_end, .)
+                0x00001c2c                __data_load_start = LOADADDR (.data)
+                0x00001c3c                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00800324        0x0
+                0x00800324                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x00800324                PROVIDE (__noinit_end, .)
+                0x00800324                _end = .
+                0x00800324                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x11
+ *(.comment)
+ .comment       0x00000000       0x11 Wire/utility/twi.o
+                                 0x12 (size before relaxing)
+ .comment       0x00000000       0x12 main.o
+ .comment       0x00000000       0x12 NESPad.o
+ .comment       0x00000000       0x12 wra.o
+ .comment       0x00000000       0x12 Wire/Wire.o
+ .comment       0x00000000       0x12 WMCrypt.o
+ .comment       0x00000000       0x12 WMExtension.o
+ .comment       0x00000000       0x12 ./arduinocore/libarduinocore.a(wiring.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0xa0
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ .debug_aranges
+                0x00000020       0x20 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+ .debug_aranges
+                0x00000040       0x20 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+ .debug_aranges
+                0x00000060       0x20 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+ .debug_aranges
+                0x00000080       0x20 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000      0x3b6
+ *(.debug_info)
+ .debug_info    0x00000000       0xbe /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ .debug_info    0x000000be       0xbe /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+ .debug_info    0x0000017c       0xbe /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+ .debug_info    0x0000023a       0xbe /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+ .debug_info    0x000002f8       0xbe /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev   0x00000000       0x64
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0x14 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ .debug_abbrev  0x00000014       0x14 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+ .debug_abbrev  0x00000028       0x14 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+ .debug_abbrev  0x0000003c       0x14 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+ .debug_abbrev  0x00000050       0x14 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+
+.debug_line     0x00000000      0x1d3
+ *(.debug_line)
+ .debug_line    0x00000000       0x58 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ .debug_line    0x00000058       0x61 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+ .debug_line    0x000000b9       0x5e /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+ .debug_line    0x00000117       0x60 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+ .debug_line    0x00000177       0x5c /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(wra.elf elf32-avr)
+LOAD linker stubs
+
+Cross Reference Table
+
+Symbol                                            File
+NESPad::init()                                    NESPad.o
+                                                  wra.o
+NESPad::read()                                    NESPad.o
+                                                  wra.o
+TwoWire::TwoWire()                                Wire/Wire.o
+TwoWire::TwoWire()                                Wire/Wire.o
+TwoWire::available()                              Wire/Wire.o
+TwoWire::begin()                                  Wire/Wire.o
+TwoWire::begin(int)                               Wire/Wire.o
+                                                  WMExtension.o
+TwoWire::begin(unsigned char)                     Wire/Wire.o
+TwoWire::beginTransmission(int)                   Wire/Wire.o
+TwoWire::beginTransmission(unsigned char)         Wire/Wire.o
+TwoWire::endTransmission()                        Wire/Wire.o
+TwoWire::onReceive(void (*)(int))                 Wire/Wire.o
+                                                  WMExtension.o
+TwoWire::onReceiveService(unsigned char*, int)    Wire/Wire.o
+TwoWire::onRequest(void (*)())                    Wire/Wire.o
+                                                  WMExtension.o
+TwoWire::onRequestService()                       Wire/Wire.o
+TwoWire::receive()                                Wire/Wire.o
+                                                  WMExtension.o
+TwoWire::requestFrom(int, int)                    Wire/Wire.o
+TwoWire::requestFrom(unsigned char, unsigned char) Wire/Wire.o
+TwoWire::rxBuffer                                 Wire/Wire.o
+TwoWire::rxBufferIndex                            Wire/Wire.o
+TwoWire::rxBufferLength                           Wire/Wire.o
+TwoWire::send(char*)                              Wire/Wire.o
+TwoWire::send(int)                                Wire/Wire.o
+TwoWire::send(unsigned char)                      Wire/Wire.o
+TwoWire::send(unsigned char*, unsigned char)      Wire/Wire.o
+                                                  WMExtension.o
+TwoWire::transmitting                             Wire/Wire.o
+TwoWire::txAddress                                Wire/Wire.o
+TwoWire::txBuffer                                 Wire/Wire.o
+TwoWire::txBufferIndex                            Wire/Wire.o
+TwoWire::txBufferLength                           Wire/Wire.o
+TwoWire::user_onReceive                           Wire/Wire.o
+TwoWire::user_onRequest                           Wire/Wire.o
+WMCrypt::ans_tbl                                  WMCrypt.o
+WMCrypt::genkey(unsigned char const*, unsigned char, unsigned char*) WMCrypt.o
+WMCrypt::gentabs(unsigned char const*, unsigned char const*, unsigned char, unsigned char*, unsigned char*) WMCrypt.o
+WMCrypt::ror8(unsigned char, unsigned char)       WMCrypt.o
+WMCrypt::sboxes                                   WMCrypt.o
+WMCrypt::tsbox                                    WMCrypt.o
+WMCrypt::wiimote_gen_key(unsigned char const*)    WMCrypt.o
+                                                  WMExtension.o
+WMCrypt::wm_ft                                    WMCrypt.o
+                                                  WMExtension.o
+WMCrypt::wm_sb                                    WMCrypt.o
+                                                  WMExtension.o
+WMExtension::buttons_data                         WMExtension.o
+WMExtension::buttons_pos                          WMExtension.o
+WMExtension::calibration_data                     WMExtension.o
+WMExtension::cbPtr                                WMExtension.o
+WMExtension::crypt_setup_done                     WMExtension.o
+WMExtension::get_calibration_byte(int)            WMExtension.o
+                                                  wra.o
+WMExtension::handle_request()                     WMExtension.o
+WMExtension::id                                   WMExtension.o
+WMExtension::init()                               WMExtension.o
+                                                  wra.o
+WMExtension::new_addr                             WMExtension.o
+WMExtension::receive_bytes(int)                   WMExtension.o
+WMExtension::registers                            WMExtension.o
+WMExtension::send_data(unsigned char*, unsigned char, unsigned char) WMExtension.o
+WMExtension::set_button_data(int, int, int, int, int, int, int, int, int, int, int, int, int, unsigned char, unsigned char, unsigned char, unsigned char, int, int, int, int) WMExtension.o
+                                                  wra.o
+WMExtension::set_button_data_callback(void (*)()) WMExtension.o
+WMExtension::setup_encryption()                   WMExtension.o
+WMExtension::state                                WMExtension.o
+Wire                                              Wire/Wire.o
+                                                  WMExtension.o
+__bad_interrupt                                   /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__bss_end                                         /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+__bss_start                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+__ctors_end                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+__ctors_start                                     /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+__data_end                                        /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+__data_load_start                                 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+__data_start                                      /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+__do_clear_bss                                    /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+                                                  ./arduinocore/libarduinocore.a(wiring.o)
+                                                  WMExtension.o
+                                                  WMCrypt.o
+                                                  Wire/Wire.o
+                                                  wra.o
+                                                  Wire/utility/twi.o
+__do_copy_data                                    /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+                                                  WMExtension.o
+__do_global_ctors                                 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+                                                  wra.o
+__heap_end                                        /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__init                                            /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__stack                                           /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__tablejump2__                                    /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+__tablejump__                                     /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+                                                  /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+__vector_1                                        /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_10                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_11                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_12                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_13                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_14                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_15                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_16                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_17                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_18                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_19                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_2                                        /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_20                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_21                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_22                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_23                                       ./arduinocore/libarduinocore.a(wiring.o)
+                                                  /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_24                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_25                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_26                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_27                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_28                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_29                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_3                                        /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_30                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_31                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_32                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_33                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_34                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_35                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_36                                       Wire/utility/twi.o
+                                                  /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_37                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_38                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_39                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_4                                        /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_40                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_41                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_42                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_5                                        /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_6                                        /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_7                                        /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_8                                        /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_9                                        /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_default                                  /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vectors                                         /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+_exit                                             /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ba                                                wra.o
+bb                                                wra.o
+bdd                                               wra.o
+bdl                                               wra.o
+bdr                                               wra.o
+bdu                                               wra.o
+bhome                                             wra.o
+bl                                                wra.o
+bm                                                wra.o
+bp                                                wra.o
+br                                                wra.o
+bx                                                wra.o
+by                                                wra.o
+bzl                                               wra.o
+bzr                                               wra.o
+delay                                             ./arduinocore/libarduinocore.a(wiring.o)
+delayMicroseconds                                 ./arduinocore/libarduinocore.a(wiring.o)
+exit                                              /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+                                                  /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+init                                              ./arduinocore/libarduinocore.a(wiring.o)
+                                                  main.o
+loop                                              wra.o
+                                                  main.o
+lt                                                wra.o
+lx                                                wra.o
+ly                                                wra.o
+main                                              main.o
+                                                  /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+memcmp                                            /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(memcmp.o)
+                                                  WMCrypt.o
+memset                                            /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a(memset.o)
+                                                  WMExtension.o
+micros                                            ./arduinocore/libarduinocore.a(wiring.o)
+millis                                            ./arduinocore/libarduinocore.a(wiring.o)
+nes_loop()                                        wra.o
+rt                                                wra.o
+rx                                                wra.o
+ry                                                wra.o
+setup                                             wra.o
+                                                  main.o
+timer0_millis                                     ./arduinocore/libarduinocore.a(wiring.o)
+timer0_overflow_count                             ./arduinocore/libarduinocore.a(wiring.o)
+twi_attachSlaveRxEvent                            Wire/utility/twi.o
+                                                  Wire/Wire.o
+twi_attachSlaveTxEvent                            Wire/utility/twi.o
+                                                  Wire/Wire.o
+twi_init                                          Wire/utility/twi.o
+                                                  Wire/Wire.o
+twi_readFrom                                      Wire/utility/twi.o
+                                                  Wire/Wire.o
+twi_releaseBus                                    Wire/utility/twi.o
+twi_reply                                         Wire/utility/twi.o
+twi_setAddress                                    Wire/utility/twi.o
+                                                  Wire/Wire.o
+twi_stop                                          Wire/utility/twi.o
+twi_transmit                                      Wire/utility/twi.o
+                                                  Wire/Wire.o
+twi_writeTo                                       Wire/utility/twi.o
+                                                  Wire/Wire.o

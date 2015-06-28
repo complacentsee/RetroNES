@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
+<<<<<<< HEAD
 <eagle version="7.3.0">
+=======
+<eagle version="7.1.0">
+>>>>>>> 6d88d6bb1d28429f71ddcc16fc931f0af3c58541
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -5632,6 +5636,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="ISP" library="TC2030-IDC-NL" deviceset="TC2030-IDC-NL" device="-ISP"/>
 <part name="C1" library="adafruit" deviceset="C-US" device="C0402" value="1uF"/>
 <part name="WII" library="RetroNES" deviceset="WII_PADS" device=""/>
+<<<<<<< HEAD
 <part name="C2" library="adafruit" deviceset="C-US" device="C0402" value="8pf"/>
 <part name="C3" library="adafruit" deviceset="C-US" device="C0402" value="8pF"/>
 <part name="UP-BUTTON" library="NES" deviceset="DPAD-SS" device=""/>
@@ -5660,6 +5665,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U$2" library="adamtemp" deviceset="CX2520DB" device=""/>
 <part name="L" library="pinhead" deviceset="PINHD-1X2" device=""/>
 <part name="R" library="pinhead" deviceset="PINHD-1X2" device=""/>
+=======
+<part name="C2" library="adafruit" deviceset="C-US" device="C0805" value="16pf"/>
+<part name="C3" library="adafruit" deviceset="C-US" device="C0805" value="16pF"/>
+>>>>>>> 6d88d6bb1d28429f71ddcc16fc931f0af3c58541
 </parts>
 <sheets>
 <sheet>
@@ -5670,6 +5679,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="C1" gate="G$1" x="43.18" y="58.42"/>
 <instance part="WII" gate="G$1" x="162.56" y="109.22"/>
 <instance part="C2" gate="G$1" x="25.4" y="43.18"/>
+<<<<<<< HEAD
 <instance part="C3" gate="G$1" x="12.7" y="43.18"/>
 <instance part="UP-BUTTON" gate="G$1" x="213.36" y="177.8"/>
 <instance part="RIGHT-BUTTON" gate="G$1" x="213.36" y="157.48"/>
@@ -5697,6 +5707,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="U$2" gate="G$1" x="93.98" y="33.02"/>
 <instance part="L" gate="G$1" x="213.36" y="-27.94" rot="R90"/>
 <instance part="R" gate="G$1" x="213.36" y="-50.8" rot="R90"/>
+=======
+<instance part="C3" gate="G$1" x="25.4" y="33.02"/>
+>>>>>>> 6d88d6bb1d28429f71ddcc16fc931f0af3c58541
 </instances>
 <busses>
 </busses>

@@ -6044,6 +6044,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="RIGHT" class="0">
 <segment>
+<<<<<<< HEAD
 <pinref part="RIGHT-BUTTON" gate="G$1" pin="1"/>
 <wire x1="200.66" y1="157.48" x2="190.5" y2="157.48" width="0.2032" layer="91"/>
 <pinref part="R4" gate="G$1" pin="1"/>
@@ -6051,6 +6052,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="200.66" y1="147.32" x2="208.28" y2="147.32" width="0.2032" layer="91"/>
 <junction x="200.66" y="157.48"/>
 <label x="190.5" y="160.02" size="1.778" layer="95"/>
+=======
+<pinref part="IC1" gate="G$1" pin="PB5(OC1A/OC4B/ADC12)"/>
+<wire x1="116.84" y1="63.5" x2="124.46" y2="63.5" width="0.1524" layer="91"/>
+<label x="119.38" y="63.5" size="1.778" layer="95"/>
+>>>>>>> 6d88d6bb1d28429f71ddcc16fc931f0af3c58541
 </segment>
 </net>
 <net name="B" class="0">
@@ -6133,9 +6139,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="17.78" y="55.88" size="1.778" layer="95"/>
 </segment>
 <segment>
+<<<<<<< HEAD
 <pinref part="U$1" gate="G$1" pin="XTAL1"/>
 <wire x1="137.16" y1="27.94" x2="132.08" y2="27.94" width="0.1524" layer="91"/>
 <label x="132.08" y="27.94" size="1.778" layer="95"/>
+=======
+<pinref part="IC1" gate="G$1" pin="PB4(ADC11)"/>
+<wire x1="116.84" y1="60.96" x2="124.46" y2="60.96" width="0.1524" layer="91"/>
+<label x="119.38" y="60.96" size="1.778" layer="95"/>
+>>>>>>> 6d88d6bb1d28429f71ddcc16fc931f0af3c58541
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="1"/>
@@ -6145,10 +6157,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="XTAL2" class="0">
 <segment>
+<<<<<<< HEAD
 <pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="25.4" y1="45.72" x2="25.4" y2="50.8" width="0.2032" layer="91"/>
 <wire x1="25.4" y1="50.8" x2="33.02" y2="50.8" width="0.2032" layer="91"/>
 <label x="25.4" y="50.8" size="1.778" layer="95"/>
+=======
+<pinref part="IC1" gate="G$1" pin="PD7(OC4D/ADC10/T0)"/>
+<wire x1="116.84" y1="45.72" x2="124.46" y2="45.72" width="0.1524" layer="91"/>
+<label x="119.38" y="45.72" size="1.778" layer="95"/>
+>>>>>>> 6d88d6bb1d28429f71ddcc16fc931f0af3c58541
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="XTAL2"/>
@@ -6156,9 +6174,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="132.08" y="22.86" size="1.778" layer="95"/>
 </segment>
 <segment>
+<<<<<<< HEAD
 <pinref part="U$2" gate="G$1" pin="3"/>
 <wire x1="96.52" y1="33.02" x2="104.14" y2="33.02" width="0.1524" layer="91"/>
 <label x="104.14" y="33.02" size="1.778" layer="95"/>
+=======
+<pinref part="IC1" gate="G$1" pin="PD6(T1/OC4D/ADC9)"/>
+<wire x1="116.84" y1="43.18" x2="124.46" y2="43.18" width="0.1524" layer="91"/>
+<label x="119.38" y="43.18" size="1.778" layer="95"/>
+>>>>>>> 6d88d6bb1d28429f71ddcc16fc931f0af3c58541
 </segment>
 </net>
 <net name="Y" class="0">
@@ -6172,9 +6196,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="190.5" y="15.24" size="1.778" layer="95"/>
 </segment>
 <segment>
+<<<<<<< HEAD
 <pinref part="U$1" gate="G$1" pin="PB7"/>
 <wire x1="172.72" y1="22.86" x2="177.8" y2="22.86" width="0.1524" layer="91"/>
 <label x="175.26" y="22.86" size="1.778" layer="95"/>
+=======
+<pinref part="IC1" gate="G$1" pin="PF5(ADC5/TMS)"/>
+<wire x1="116.84" y1="93.98" x2="124.46" y2="93.98" width="0.1524" layer="91"/>
+<label x="119.38" y="93.98" size="1.778" layer="95"/>
+>>>>>>> 6d88d6bb1d28429f71ddcc16fc931f0af3c58541
 </segment>
 </net>
 <net name="X" class="0">
@@ -6188,9 +6218,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="190.5" y="-7.62" size="1.778" layer="95"/>
 </segment>
 <segment>
+<<<<<<< HEAD
 <pinref part="U$1" gate="G$1" pin="PB6(ADC13)"/>
 <wire x1="172.72" y1="25.4" x2="177.8" y2="25.4" width="0.1524" layer="91"/>
 <label x="175.26" y="25.4" size="1.778" layer="95"/>
+=======
+<pinref part="IC1" gate="G$1" pin="PF6(ADC6/TDO)"/>
+<wire x1="116.84" y1="91.44" x2="124.46" y2="91.44" width="0.1524" layer="91"/>
+<label x="119.38" y="91.44" size="1.778" layer="95"/>
+>>>>>>> 6d88d6bb1d28429f71ddcc16fc931f0af3c58541
 </segment>
 </net>
 <net name="L" class="0">

@@ -1,5 +1,9 @@
 [Eagle]
+<<<<<<< HEAD
 Version="07 03 00"
+=======
+Version="07 01 00"
+>>>>>>> 6d88d6bb1d28429f71ddcc16fc931f0af3c58541
 Platform="Mac OS X"
 Serial="7108CD561D-LSR-WLM-1SS"
 Globals="Globals"
@@ -7,6 +11,7 @@ Desktop="Desktop"
 
 [Globals]
 AutoSaveProject=1
+<<<<<<< HEAD
 UsedLibrary="/Applications/EAGLE-7.3.0/lbr/adamtemp.lbr"
 UsedLibrary="/Applications/EAGLE-7.3.0/lbr/atmel.lbr"
 UsedLibrary="/Applications/EAGLE-7.3.0/lbr/pinhead.lbr"
@@ -18,6 +23,14 @@ UsedLibrary="/Applications/EAGLE-7.3.0/lbr/SparkFun-Eagle-Libraries/SparkFun-Dig
 Type="Control Panel"
 Loc="0 23 599 422"
 State=2
+=======
+UsedLibrary="/Applications/EAGLE-7.1.0/lbr/Adafruit-Eagle-Library/adafruit.lbr"
+
+[Win_1]
+Type="Control Panel"
+Loc="40 63 1439 819"
+State=1
+>>>>>>> 6d88d6bb1d28429f71ddcc16fc931f0af3c58541
 Number=0
 
 [Desktop]
